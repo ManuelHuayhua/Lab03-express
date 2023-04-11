@@ -8,9 +8,15 @@ app.get('/',(req, res)=>{
     res.send('mi respuesta desde')
 })
 
-app.get('/servi',(req, res)=>{
-    res.send('segunda pagina')
+app.get('/clientes',(req, res)=>{
+    res.send('Clientes')
 })
+
+app.get('/productos',(req, res)=>{
+    res.send('Productos')
+})
+
+
 
 
 
